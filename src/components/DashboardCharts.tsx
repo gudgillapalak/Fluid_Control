@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { useEffect } from "react";
 import {
   PieChart,
   Pie,
@@ -12,6 +13,7 @@ import {
   ResponsiveContainer,
   Legend,
 } from "recharts";
+
 
 import { useProjectData } from "@/contexts/ProjectContext";
 

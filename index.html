@@ -30,8 +30,8 @@
   <pre id="output"></pre>
 
   <script>
-  fetch("http://localhost:5000/api/fluids")
-      .then(res => res.json())
+fetch("/api/fluids")    
+  .then(res => res.json())
       .then(data => {
         document.getElementById("output").innerText =
           JSON.stringify(data, null, 2);
