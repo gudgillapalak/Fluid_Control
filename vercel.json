@@ -5,7 +5,7 @@
       "framework": "vite"
     },
     "backend": {
-      "entrypoint": "backend/app.py",
+      "entrypoint": "backend/server.js",
       "routePrefix": "/api"
     }
   }
